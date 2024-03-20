@@ -30,6 +30,9 @@ public class GoldenBlissPlugin extends JavaPlugin {
 
 
   }
-
+  public static NamespacedKey getIsGemKey() {
+        return isGemKey;
+  }
+  
     
 }
