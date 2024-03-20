@@ -1,4 +1,4 @@
-package com.ethebee3.goldenblisspluginplugin;
+package com.ethebee3.GoldenBlissPlugin;
 
 import io.papermc.lib.PaperLib;
 import org.bukkit.plugin.java.JavaPlugin;
