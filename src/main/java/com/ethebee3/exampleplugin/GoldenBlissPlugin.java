@@ -1,4 +1,4 @@
-package com.ethebee3;
+package com.ethebee1;
 
 import io.papermc.lib.PaperLib;
 import org.bukkit.plugin.java.JavaPlugin;
