@@ -1,7 +1,12 @@
 package com.ethebee3;
 
-import io.papermc.*;
+import io.papermc.lib.PaperLib;
+import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.NamespacedKey;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.*;
+import io.papermc.lib.*;
+import io.papermc.*;
 import com.ethebee3.managers.*;
 
 
