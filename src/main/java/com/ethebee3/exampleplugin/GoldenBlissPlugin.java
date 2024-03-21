@@ -1,4 +1,4 @@
-package com.ethebee3.GoldenBlissPlugin;
+package com.ethebee3;
 
 import io.papermc.lib.PaperLib;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -13,6 +13,8 @@ public class GoldenBlissPlugin extends JavaPlugin {
   public void onEnable() {
     PaperLib.suggestPaper(this);
     saveDefaultConfig();
+    private static SingletonManager sm = null;
+    sm = new SingletonManager();
 
     //edits by ethebee3 from here
     isGemKey = new NamespacedKey((plugin)this, "is_custom_gem")
@@ -33,6 +35,9 @@ public class GoldenBlissPlugin extends JavaPlugin {
   public static NamespacedKey getIsGemKey() {
         return isGemKey;
   }
-  
+  public static SingletonManager getSingletonManager() {
+        return sm;
+  }
+
     
 }

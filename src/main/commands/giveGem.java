@@ -1,4 +1,4 @@
-package com.ethebee3.commands.giveGem;
+package com.ethebee3.commands;
 
 import me.iseal.powergems.Main;
 import me.iseal.powergems.managers.SingletonManager;

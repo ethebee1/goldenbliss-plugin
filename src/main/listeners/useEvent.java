@@ -1,9 +1,16 @@
-package com.ethebee3.listeners.useEvent;
+package com.ethebee3.listeners;
 
 import org.bukkit.*;
 import com.ethebee3.managers.*;
 
 public class useEvent{
+    private SingletonManager sm = Main.getSingletonManager();
+    private TempDataManager tdm;
+
+    public useEvent() {
+        this.tdm = 
+    }
+
     @EventHandler
     public void onUse(PlayerInteractEvent e) {
         Player player = e.getplayer()
