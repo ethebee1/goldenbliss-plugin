@@ -1,9 +1,7 @@
 package com.ethebee3;
 
-import io.papermc.lib.PaperLib;
-import org.bukkit.plugin.java.JavaPlugin;
-import org.bukkit.NamespacedKey;
-import org.bukkit.plugin.PluginManager;
+import io.papermc.*;
+import org.bukkit.*;
 
 
 public final class GoldenBlissPlugin extends JavaPlugin {
