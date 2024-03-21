@@ -6,13 +6,13 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
-import io.papermc.lib.*;
-import io.papermc.*;
-import com.ethebee3.managers.*;
-import com.ethebee3.listeners.*;
+import org.bukkit.event.Listener;
+import com.ethebee3.managers.SingletonManager;
+import com.ethebee3.listeners.useEvent;
 
 
 public final class GoldenBlissPlugin extends JavaPlugin {
+  private static JavaPlugin plugin = null;
   private static NamespacedKey isGemKey = null;
   private static NamespacedKey isFireGemKey = null;
   private static NamespacedKey isStrengthGemKey = null;
@@ -25,6 +25,7 @@ public final class GoldenBlissPlugin extends JavaPlugin {
 
   @Override
   public void onEnable() {
+    plugin = this;
     PaperLib.suggestPaper(this);
     saveDefaultConfig();
 
