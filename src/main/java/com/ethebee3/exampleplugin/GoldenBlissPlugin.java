@@ -17,6 +17,15 @@ public class GoldenBlissPlugin extends JavaPlugin {
     sm = new SingletonManager();
 
     //edits by ethebee3 from here
+    private static isGemKey = null;
+    private static isFireGemKey = null;
+    private static isStrengthGemKey = null;
+    private static isSpeedGemKey = null;
+    private static isLifeGemKey = null;
+    private static isSculkGemKey = null;
+    private static isEarthGemKey = null;
+    private static isPuffGemKey = null;
+
     isGemKey = new NamespacedKey((plugin)this, "is_custom_gem");
     isFireGemKey = new NamespacedKey((plugin)this, "is_fire_gem");
     isStrengthGemKey = new NamespacedKey((plugin)this, "is_strength_gem");
