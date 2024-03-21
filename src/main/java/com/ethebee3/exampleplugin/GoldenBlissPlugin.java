@@ -17,14 +17,14 @@ public class GoldenBlissPlugin extends JavaPlugin {
     sm = new SingletonManager();
 
     //edits by ethebee3 from here
-    isGemKey = new NamespacedKey((plugin)this, "is_custom_gem")
-    isFireGemKey = new NamespacedKey((plugin)this, "is_fire_gem")
-    isStrengthGemKey = new NamespacedKey((plugin)this, "is_strength_gem")
-    isSpeedGemKey = new NamespacedKey((plugin)this, "is_speed_gem")
-    isLifeGemKey = new NamespacedKey((plugin)this, "is_life_gem")
-    isSculkGemKey = new NamespacedKey((plugin)this, "is_sculk_gem")
-    isEarthGemKey = new NamespacedKey((plugin)this, "is_earth_gem")
-    isPuffGemKey = new NamespacedKey((plugin)this, "is_puff_gem")
+    isGemKey = new NamespacedKey((plugin)this, "is_custom_gem");
+    isFireGemKey = new NamespacedKey((plugin)this, "is_fire_gem");
+    isStrengthGemKey = new NamespacedKey((plugin)this, "is_strength_gem");
+    isSpeedGemKey = new NamespacedKey((plugin)this, "is_speed_gem");
+    isLifeGemKey = new NamespacedKey((plugin)this, "is_life_gem");
+    isSculkGemKey = new NamespacedKey((plugin)this, "is_sculk_gem");
+    isEarthGemKey = new NamespacedKey((plugin)this, "is_earth_gem");
+    isPuffGemKey = new NamespacedKey((plugin)this, "is_puff_gem");
 
 
     //listeners
