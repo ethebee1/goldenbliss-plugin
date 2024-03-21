@@ -1,7 +1,7 @@
-package com.ethebee3.commands;
+package com.ethebee3.goldenblissplugin.commands;
 
-import me.iseal.powergems.Main;
-import me.iseal.powergems.managers.SingletonManager;
+import com.ethebee3.goldenblissplugin.managers.SingletonManager;
+import com.ethebee3.goldenblissplugin.GoldenBlissPlugin;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -12,6 +12,6 @@ import org.jetbrains.annotations.NotNull;
 
 public class giveGem{
     public boolean onCommand(@NotNull CommandSender commandSender, @NotNull Command command, @NotNull String s, @NotNull String[] args) {
-        
+        return false;
     }
 }

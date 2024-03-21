@@ -1,9 +1,9 @@
 /*
  * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
  */
-package me.iseal.powergems.managers;
+package com.ethebee3.goldenblissplugin.managers;
 
-import com.ethebee3.managers.*
+import com.ethebee3.goldenblissplugin.managers.TempDataManager;
 
 public class SingletonManager {
     public TempDataManager tempDataManager;
