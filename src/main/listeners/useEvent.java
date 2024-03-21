@@ -8,7 +8,7 @@ public class useEvent{
     private TempDataManager tdm;
 
     public useEvent() {
-        this.tdm = 
+        this.tdm = TempDataManager();
     }
 
     @EventHandler

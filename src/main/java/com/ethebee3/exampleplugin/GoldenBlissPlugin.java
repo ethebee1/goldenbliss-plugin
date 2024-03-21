@@ -6,25 +6,23 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.plugin.PluginManager;
 
 
-public class GoldenBlissPlugin extends JavaPlugin {
+public final class GoldenBlissPlugin extends JavaPlugin {
   private static NamespacedKey isGemKey = null;
+  private static NamespacedKey isFireGemKey = null;
+  private static NamespacedKey isStrengthGemKey = null;
+  private static NamespacedKey isSpeedGemKey = null;
+  private static NamespacedKey isLifeGemKey = null;
+  private static NamespacedKey isSculkGemKey = null;
+  private static NamespacedKey isEarthGemKey = null;
+  private static NamespacedKey isPuffGemKey = null;
+  private static SingletonManager sm = null;
 
   @Override
   public void onEnable() {
     PaperLib.suggestPaper(this);
     saveDefaultConfig();
-    private static SingletonManager sm = null;
-    sm = new SingletonManager();
 
-    //edits by ethebee3 from here
-    private static isGemKey = null;
-    private static isFireGemKey = null;
-    private static isStrengthGemKey = null;
-    private static isSpeedGemKey = null;
-    private static isLifeGemKey = null;
-    private static isSculkGemKey = null;
-    private static isEarthGemKey = null;
-    private static isPuffGemKey = null;
+    sm = new SingletonManager();
 
     isGemKey = new NamespacedKey((plugin)this, "is_custom_gem");
     isFireGemKey = new NamespacedKey((plugin)this, "is_fire_gem");
