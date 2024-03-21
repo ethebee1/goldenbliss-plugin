@@ -42,7 +42,7 @@ public class useEvent implements Listener {
         }
         ItemMeta meta = item.getItemMeta();
         PersistentDataContainer dataContainer = meta.getPersistentDataContainer();
-        if (dataContainer.has(GoldenBlissPlugin.getIsGemKey()), PersistentDataType.BOOLEAN){
+        if (dataContainer.has(GoldenBlissPlugin.getIsGemKey(), PersistentDataType.BOOLEAN)){
             if (this.tdm.cantUseGems.containsKey(player)) {
                 if (System.currentTimeMillis() < this.tdm.cantUseGems.get(player)) {
                     player.sendMessage(ChatColor.DARK_RED + "You can't use gems for another " + (this.tdm.cantUseGems.get(player) - System.currentTimeMillis()) / 1000L + " seconds!");
